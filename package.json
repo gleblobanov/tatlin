@@ -1,0 +1,32 @@
+{
+  "name": "Tatlin",
+  "version": "1.0.0",
+  "description": "Process images using Koubachi sensor data and sends to the remote server via FTP",
+  "main": "program.js",
+  "dependencies": {
+    "async": "^0.9.0",
+    "gm": "^1.17.0",
+    "jsftp": "^1.5.1",
+    "koubachi": "^0.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gleblobanov/tatlin.git"
+  },
+  "keywords": [
+    "Koubachi",
+    "glitch",
+    "image",
+    "sensor"
+  ],
+  "author": "Gleb Y. Lobanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gleblobanov/tatlin/issues"
+  },
+  "homepage": "https://github.com/gleblobanov/tatlin"
+}
