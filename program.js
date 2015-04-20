@@ -8,13 +8,7 @@ var send_sensor_file = require('./send_sensor_file.js');
 
 
 const ARR_LEN = 3600;
-const CONNECTION = {
-    host: '77.222.40.208',
-    port: 21,
-    user: 'sandonatru',
-    pass: 'inyazsandonato',
-    directory: 'public_html/181282/'
-}
+
 
 var koubachi = new Koubachi.Koubachi();
 
