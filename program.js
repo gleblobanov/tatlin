@@ -16,7 +16,7 @@ koubachi.on('error', function(err) {
     console.log('koubachi error'); console.error (err);
 });
 
-koubachi.setConfig('KLABVB8ZULIQZGJIKO964EEA', 'OOS2Sh7SWWHgUhOOBko');
+koubachi.setConfig('', '');
 
 koubachi.getDevices(function(err, results) {
 
